@@ -12,12 +12,13 @@
 
 <script>
   window.onload = function () {
-    Parse.initialize("PnZGkpEvquaTsY0E7lfcaeZoaykHkEp3ZHHVWqKK", "bEk9obERgkgRBf3e5Ilt9FEYLD7NslMaagPgyl7i");
+    Parse.initialize("YOUR_BACK4APP_APP_ID", "YOUR_BACK4APP_JAVASCRIPT_KEY");
 
     Parse.serverURL = 'https://parseapi.back4app.com'
+
     SC.initialize({
-      client_id: '1fb0d04a94f035059b0424154fd1b18c', // Here you put your SoundCloud app's client_id
-      redirect_uri: 'http://localhost:8080/callback' // Here you put the redirect_uri 
+      client_id: 'YOUR_SOUNDCLOUD_APP_CLIENT_ID', // For test purpose you could use this client_id: 1fb0d04a94f035059b0424154fd1b18c
+      redirect_uri: 'http://example.com/callback' // For test purpose you could use this redirect_uri: http://localhost:8080/callback
     });
 
     var oauth_token
