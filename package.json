@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@nataliacs/soundcloud-auth-parse": "^3.0.2",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "soundCloud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
